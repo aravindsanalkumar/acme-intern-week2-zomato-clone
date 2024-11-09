@@ -88,6 +88,10 @@ body::before{
     width:100%;
     border-radius: 16px;
 }
+.footer{
+    background-color: #e6d16c1d;
+}
+
 @media (max-width:1400px){
     body::before{
         content:'1400px';
