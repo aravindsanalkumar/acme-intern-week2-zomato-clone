@@ -67,14 +67,26 @@ body::before{
 /* section Email */
 .mob_img_box{
     margin:5px auto;
-    border:1px solid red;
     width:600px;
     height:500px;
 }
 .mob_img{
-    width:100%;
+    width:80%;
     height:auto;
     object-fit: cover;
+}
+/* form */
+.section_form{
+    background-color: #e6d16c1d;
+}
+.app_card{
+    width:200px;
+    border-radius: 16px;
+    padding: 15px;
+}
+.app_card_img{
+    width:100%;
+    border-radius: 16px;
 }
 @media (max-width:1400px){
     body::before{
@@ -110,6 +122,9 @@ body::before{
     .img_box_img{
         height:300px;
     }
+    .mob_img_box{
+        width:450px;
+    }
 }
 
 @media (max-width:990px){
@@ -141,6 +156,9 @@ body::before{
     .place_card h3{
         font-size: 18px;;
     }
+    .mob_img_box{
+        width:400px;
+    }
 }
 
 @media(max-width:750px){
@@ -163,6 +181,9 @@ body::before{
         width:400px;
         height:80px;
         padding-top: 25px;
+    }
+    .mob_img_box{
+        display: none;
     }
 }
 
