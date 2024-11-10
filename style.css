@@ -7,6 +7,10 @@ body::before{
     right:0;
     color:red;
 }
+/* nav */
+.nav{
+    background-color: #e6d26c5e;
+}
 /* hero section */
 .hero{
     position:relative;
@@ -19,7 +23,7 @@ body::before{
 .hero_content{
     text-align: center;
     position: absolute;
-    top:20%;
+    top:50%;
     left:50%;
     transform: translate(-50%,-50%);
 }
@@ -51,6 +55,7 @@ body::before{
     border:1px solid lightgray;
     margin:1px auto;
     border-radius: 14px;
+    transition: .2s;
 }
 .card_img{
     width:100%;
@@ -61,6 +66,9 @@ body::before{
 }
 .content{
     padding:15px;
+}
+.card_box:hover{
+    transform: scale(1.1);
 }
 /* section B four cards */
 .img_box{
@@ -91,6 +99,7 @@ body::before{
     border:1px solid lightgray;
     border-radius: 14px;
     margin:10px auto;
+    box-shadow:5px 5px 5px rgba(128, 128, 128, 0.233) ;
 }
 .place_card:hover{
     cursor: pointer;
@@ -121,6 +130,10 @@ body::before{
 }
 .footer{
     background-color: #e6d16c1d;
+}
+.footer ul{
+    background-color: #e6d26c00;
+
 }
 
 @media (max-width:1400px){
@@ -247,6 +260,9 @@ body::before{
         border:none;
         border-radius: 14px;
         font-size: 12px;
+    }
+    .logo{
+        width:170px;
     }
 }
 
