@@ -14,3 +14,13 @@ function sendMobile(){
     console.log('sending to mobile....');
     inputEmail.placeholder = 'Mobile';
 }
+
+function checkFunction(){
+    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if(inputEmail.value.match(validRegex)){
+        console.log('true')
+    }
+    else{
+        console.log('false');
+    }
+}
