@@ -1,5 +1,5 @@
 body::before{
-    content:'>1200px';
+    /* content:'>1200px'; */
     position:fixed;
     font-size: 24px;
     font-weight: 700;
@@ -137,9 +137,9 @@ body::before{
 }
 
 @media (max-width:1400px){
-    body::before{
+    /* body::before{
         content:'1400px';
-    }
+    } */
     .img_box{
         width:220px;
     }
@@ -176,9 +176,9 @@ body::before{
 }
 
 @media (max-width:990px){
-    body::before{
+    /* body::before{
         content: '900px';
-    }
+    } */
     .card_box{
         width:300px;
     }
@@ -219,9 +219,9 @@ body::before{
 }
 
 @media(max-width:750px){
-    body::before{
+    /* body::before{
         content: '750px';
-    }
+    } */
     .img_box{
         width:400px;
     }
@@ -267,7 +267,7 @@ body::before{
 }
 
 @media (max-width:600px){
-    body::before{
+    /* body::before{
         content: '600px';
-    }
+    } */
 }
