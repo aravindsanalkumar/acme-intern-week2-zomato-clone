@@ -155,9 +155,9 @@ body::before{
 }
 
 @media (max-width:1200px){
-    body::before{
+    /* body::before{
         content: '1200px';
-    }
+    } */
     .card_box{
         width:400px;
     }
